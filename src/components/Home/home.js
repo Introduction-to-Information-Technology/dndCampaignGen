@@ -63,6 +63,11 @@ function Home(props) {
                 props.changeThemeInput(e.target.textContent);
                 props.changeDropdownVisibility("theme");
             }
+
+            if (props.settingText !== "" || props.levelText !== "" || props.themeText !== "") {
+                var target = document.getElementById("campaignText")
+                target.innerHTML = ""
+            }
        
       
     }
