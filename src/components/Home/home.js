@@ -45,12 +45,16 @@ function Home(props) {
             props.changeDropdownVisibility("theme");
         }
 
+       check()
+
+        
+    }
+
+    function check() {
         if (props.settingText !== "" && props.levelText !== "" && props.themeText !== "") {
             let targetz = document.getElementById("campaignText")
             targetz.innerHTML = ""
         }
-
-        
     }
 
 
@@ -69,7 +73,7 @@ function Home(props) {
                 props.changeDropdownVisibility("theme");
             }
 
-          
+            check()
        
       
     }
