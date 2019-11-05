@@ -10,14 +10,13 @@
   white-space: -pre-wrap;      
   white-space: -o-pre-wrap;    
   word-wrap: break-word;  
-  text-align: justify;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif !important;
   color: #71675b;
-  font-size: 0.85em;
-  text-align: left;
-  transition: all 0.5s;
-  font-weight: 400;
-  line-height: 1.4rem;
+  font-size: 0.85em !important;
+  text-align: left !important;
+  transition: all 0.5s !important;
+  font-weight: 400 !important;
+  line-height: 1.4rem !important;
 }
 
 .monster {
