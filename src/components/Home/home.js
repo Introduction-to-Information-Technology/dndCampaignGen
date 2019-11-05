@@ -65,8 +65,8 @@ function Home(props) {
             }
 
             if (props.settingText !== "" && props.levelText !== "" && props.themeText !== "") {
-                let target = document.getElementById("campaignText")
-                target.innerHTML = ""
+                let targetz = document.getElementById("campaignText")
+                targetz.innerHTML = ""
             }
        
       
