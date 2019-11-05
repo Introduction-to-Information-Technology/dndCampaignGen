@@ -92,6 +92,8 @@ function Home(props) {
         ) {
             props.changeDropdownVisibility("body");
         }     
+
+        check()
     }
 
     function displayMonsters(target) {
