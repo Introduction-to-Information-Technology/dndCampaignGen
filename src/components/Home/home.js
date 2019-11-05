@@ -710,7 +710,7 @@ function Home(props) {
             let header
            if (props.settingText == "Snow") {
                header = ""
-                header += `Frosts of` + props.themeText 
+                header += `Frosts of ` + props.themeText 
                 if (props.levelText == "0-5") {
                     header += " (" + "easy" + ")"
                 } else if (props.levelText == "6-10") {
@@ -720,7 +720,7 @@ function Home(props) {
                 }
            } else if (props.settingText == "Desert") {
             header = ""
-            header += `Sands of` + props.themeText 
+            header += `Sands of ` + props.themeText 
             if (props.levelText == "0-5") {
                 header += " (" + "easy" + ")"
             } else if (props.levelText == "6-10") {
@@ -730,7 +730,7 @@ function Home(props) {
             }
          } else {
             header = ""
-            header += `Mountains of` + props.themeText 
+            header += `Mountains of ` + props.themeText 
             if (props.levelText == "0-5") {
                 header += " (" + "easy" + ")"
             } else if (props.levelText == "6-10") {
