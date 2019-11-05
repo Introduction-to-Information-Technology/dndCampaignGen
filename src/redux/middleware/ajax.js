@@ -1,6 +1,6 @@
 
 
-import { makeAjax } from "../../redux/actions/makeAjax";
+import { makeAjax } from "./actions/makeAjax";
 
 export function ajax(store) {
     return function (next) {
