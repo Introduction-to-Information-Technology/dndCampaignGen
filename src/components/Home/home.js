@@ -84,6 +84,8 @@ function Home(props) {
         target.addEventListener("click", offClick)
     }, []);
 
+    useEffect(() => check(), [props.settingText, props.themeText, props.levelText]);
+
     function offClick(e) {
       if (
           e.target.className !== "settings dropdown-toggle btn btn-secondary" && e.target.className !== "settings dropdown-item"
