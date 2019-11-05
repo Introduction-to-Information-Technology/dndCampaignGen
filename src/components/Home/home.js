@@ -127,6 +127,9 @@ function Home(props) {
             props.makeCampaign("Please fill in all of the fields to generate a campaign.")
             var target = document.getElementById("campaignText")
             target.innerHTML = "Please fill in all of the fields to generate a campaign."
+
+            var target2 =  document.getElementById("campaignHeader")
+            target2.innerHTML = ""
         } else {
             if (props.settingText == "Snow") {
                campaign = ``;
