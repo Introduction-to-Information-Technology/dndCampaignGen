@@ -11,8 +11,13 @@
   white-space: -o-pre-wrap;    
   word-wrap: break-word;  
   text-align: justify;
-  font-family: Helvetica, sans-serif;
-  font-size: 1rem;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #71675b;
+  font-size: 0.85em;
+  text-align: left;
+  transition: all 0.5s;
+  font-weight: 400;
+  line-height: 1.4rem;
 }
 
 .monster {
@@ -25,7 +30,7 @@
 
 .headerProperty {
    font-weight: bold;
-   font-size: 1.5rem;
+   font-size: 1.8rem;
    font-family: arial;
 }
 
@@ -40,7 +45,7 @@
 .divider {
    height: 5px;
    width: 100%;
-   background: #f1f1f8;;
+   background: #71675b;
 }
 
 body {
@@ -48,9 +53,9 @@ body {
 }
 
 * {
-   color: #f1f1f8;
+   color: #71675b;
 }
 
 pre {
-   color: #f1f1f8 !important;
+   color: #71675b !important;
 }
