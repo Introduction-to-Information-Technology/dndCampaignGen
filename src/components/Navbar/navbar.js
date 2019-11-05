@@ -31,32 +31,7 @@ function CustomNav(props) {
   
     return (
       <Navbar id="customNav" light expand="md">
-        <NavbarBrand tag={RRNavLink} to="/">
-
-        </NavbarBrand>
-        <NavbarToggler color="white" onClick={toggle} />
-
-        <Collapse
-          className="justify-content-center"
-          isOpen={props.menuOpen}
-          navbar
-        >
-          <Nav navbar>
-            <NavItem>
-              <NavLink
-                tag={RRNavLink}
-                to="/"
-                activeClassName="customNav__navLink--active"
-                exact
-                path="/"
-              >
-
-                Home
-              </NavLink>
-            </NavItem>
-           
-          </Nav>
-        </Collapse>
+       
       </Navbar>
     );
   
