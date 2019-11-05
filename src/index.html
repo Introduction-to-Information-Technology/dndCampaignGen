@@ -12,6 +12,12 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Cinzel+Decorative" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css"
+  />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/js/OverlayScrollbars.js"></script>
 	<title>DnD Campaign Generator</title>
 </head>
 <body>
@@ -19,4 +25,15 @@
         <section id="index"></section>
     </center>
 </body>
+
+
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            //The first argument are the elements to which the plugin shall be initialized
+            //The second argument has to be at least a empty object or a object with your desired options
+            OverlayScrollbars(document.querySelectorAll("body"), { sizeAutoCapable: true});
+        });
+    
+    
+    </script>
 </html>
