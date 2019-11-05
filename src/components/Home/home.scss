@@ -1,0 +1,44 @@
+.labels {
+   float: left;
+}
+
+#campaignText, .monster {
+  overflow-x: hidden;
+  overflow-y: auto;
+  white-space: pre-wrap;      
+  white-space: -moz-pre-wrap;  
+  white-space: -pre-wrap;      
+  white-space: -o-pre-wrap;    
+  word-wrap: break-word;  
+  text-align: justify;
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+.monster {
+   font-family: pre;
+}
+
+.property {
+   font-weight: bold;
+}
+
+.headerProperty {
+   font-weight: bold;
+   font-size: 1.5rem;
+   font-family: arial;
+}
+
+.encounter {
+   text-align: center;
+   font-weight: bold;
+   font-size: 2rem;
+   display: inline-block;
+   width: 100%;
+}
+
+.divider {
+   height: 5px;
+   width: 100%;
+   background: black;
+}

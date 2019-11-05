@@ -1,0 +1,35 @@
+
+
+$backgroundColor: rgb(27, 27, 27);
+$divColor: #353535;
+$headingsLinksColor: rgb(255, 255, 255);
+$bodyTextColor: rgb(170, 170, 170);
+$formGray: #2b2b2b;
+$formBorder: #4a4d53;
+$formDropdown: #202020;
+
+@mixin contentWrapper {
+    margin-top: 59px;
+    font-family: "Open Sans", sans-serif;
+    h1 {
+        color: $headingsLinksColor;
+        font-size: 33.55px;
+        line-height: 60.3833px;
+        text-align: left;
+    }
+}
+@mixin contentBodyText {
+    background: $divColor;
+    border-radius: 4px;
+    p {
+        color: $bodyTextColor;
+        font-size: 13.4167px;
+        line-height: 24.15px;
+    }
+    h2 {
+        color: $headingsLinksColor;
+        text-align: center;
+        font-size: 17.5px;
+        line-height: 31.5px;
+    }
+}

@@ -1,0 +1,64 @@
+@import '../_branding';
+
+#customNav {
+    background: $divColor;
+    position: relative;
+    a {
+        color: $headingsLinksColor;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15.0833px;
+        justify-content: center;
+        line-height: 27.15px;
+        padding-bottom: 4.53333px;
+        padding-left: 9.05px;
+        padding-right: 9.05px;
+        padding-top: 4.53333px;
+        position: relative;
+    }
+    img {
+        height: 52px;
+        position: absolute;
+        top: 50%;
+        left: -62px;
+        transform: translateY(-50%);
+    }
+    .navbar-toggler {
+        border: none;
+    }
+    .navbar-toggler-icon {
+        background-image: url("../../../assets/hamburger.png")
+    }
+    .customNav__navLink--active {
+        &::after {
+            background-attachment: scroll;
+                background-color: $headingsLinksColor;
+                border-bottom-left-radius: 0px;
+                border-bottom-right-radius: 0px;
+                border-top-left-radius: 4px;
+                border-top-right-radius: 4px;
+                bottom: 2.16667px;
+                color: rgba(0, 0, 0, 0);
+                content: ".";
+                display: block;
+                height: 1px;
+                left: 50%;
+                line-height: 27.15px;
+                position: absolute;
+                right: 0px;
+                transform: translate(-50%);
+                width: 70%;
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    img {
+        display: none;
+    }
+    .nav-link {
+        display: inline-block;
+    }
+    .nav-item {
+        text-align: center;
+    }
+}
