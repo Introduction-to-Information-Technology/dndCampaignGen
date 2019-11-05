@@ -704,11 +704,47 @@ function Home(props) {
             var target = document.getElementById("campaignText")
             target.innerHTML = campaign
 
-            props.changeSettingInput("");
-            props.changeThemeInput("");
-            props.changeLevelInput("");
-
            
+
+           var target2 =  document.getElementById("campaignHeader")
+            let header
+           if (props.settingText == "Snow") {
+               header = ""
+                header += `Frosts of` + props.themeText 
+                if (props.levelText == "0-5") {
+                    header += " (" + "easy" + ")"
+                } else if (props.levelText == "6-10") {
+                    header += " (" + "medium" + ")"
+                } else {
+                    header += " (" + "hard" + ")"
+                }
+           } else if (props.settingText == "Desert") {
+            header = ""
+            header += `Sands of` + props.themeText 
+            if (props.levelText == "0-5") {
+                header += " (" + "easy" + ")"
+            } else if (props.levelText == "6-10") {
+                header += " (" + "medium" + ")"
+            } else {
+                header += " (" + "hard" + ")"
+            }
+         } else {
+            header = ""
+            header += `Mountains of` + props.themeText 
+            if (props.levelText == "0-5") {
+                header += " (" + "easy" + ")"
+            } else if (props.levelText == "6-10") {
+                header += " (" + "medium" + ")"
+            } else {
+                header += " (" + "hard" + ")"
+            }
+         }
+
+         target2.innerHTML = header
+
+           props.changeSettingInput("");
+           props.changeThemeInput("");
+           props.changeLevelInput("");
 
 
         }
@@ -792,6 +828,7 @@ function Home(props) {
 
             <Row className="mt-5">               
                 <Col md="12">
+                    <div className="encounter" id="campaignHeader"></div>
                     <div id="campaignText"></div>         
                 </Col>
             </Row>
