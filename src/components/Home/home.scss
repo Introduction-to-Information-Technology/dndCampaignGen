@@ -71,3 +71,23 @@ pre {
 .btn-secondary {
    background: #71675b !important;
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+   color: #71675b !important;
+   opacity: 0.8 !important; /* Firefox */
+ }
+ 
+ :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #71675b;
+   opacity: 0.8 !important;
+ }
+ 
+ ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #71675b;
+   opacity: 0.8 !important;
+ }
+
+ .form-control {
+    border: 1px solid #71675b !important;
+    opacity: 0.8 !important;
+ }
