@@ -91,3 +91,12 @@ pre {
     border: 1px solid #71675b !important;
     opacity: 0.8 !important;
  }
+
+ .dropdown-menu {
+    background:  rgba(113, 103, 91, 0.7) !important;
+    color: #fff;
+ }
+
+ .dropdown-item:hover {
+   background:  rgba(113, 103, 91, 1) !important;
+ }
