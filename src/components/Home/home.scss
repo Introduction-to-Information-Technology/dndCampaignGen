@@ -62,3 +62,12 @@ body, html {
 pre {
    color: #71675b !important;
 }
+
+.form-control:disabled, .form-control[readonly] {
+   background: transparent !important;
+   color: #71675b !important;
+}
+
+.btn-secondary {
+   background: #71675b !important;
+}
