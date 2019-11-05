@@ -71,11 +71,11 @@ pre {
 .btn-secondary {
    background:rgba(113, 103, 91, 0.7) !important;
    outline: none !important;
-   border-color: none !important;
+   border-color: transparent !important;
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
-   box-shadow: 0 0 0 0.2rem rgba(113, 103, 91, 0.5);
+   box-shadow: 0 0 0 0.2rem rgba(113, 103, 91, 0.5) !important;
 }
 
 .btn-secondary:hover {
