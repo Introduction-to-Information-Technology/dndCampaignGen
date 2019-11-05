@@ -1,6 +1,6 @@
 
 
-import { makeAjax } from "./actions/makeAjax";
+import { makeAjax } from "../actions/makeajax";
 
 export function ajax(store) {
     return function (next) {

@@ -13,7 +13,7 @@ import {changeLevelInput } from "../../redux/actions/changelevel";
 import {changeThemeInput } from "../../redux/actions/changetheme";
 
 import {makeCampaign } from "../../redux/actions/makecampaign";
-import { makeAjax } from "../../redux/actions/makeAjax";
+import { makeAjax } from "../../redux/actions/makeajax";
 
 let x = 0;
 
