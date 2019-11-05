@@ -719,11 +719,7 @@ function Home(props) {
     return (
 
         <Container>
-            <Row className="mt-5  d-flex justify-content-center">
-                <Col md="12">
-                    <h1>DnD Campaign Generator</h1>
-                </Col>
-            </Row>
+           
             <Row >
                 <Col md="6" className="mt-5">
                     {/* <Label className="labels">Collection name:</Label> */}
