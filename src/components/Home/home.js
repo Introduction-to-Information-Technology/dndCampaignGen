@@ -64,7 +64,7 @@ function Home(props) {
                 props.changeDropdownVisibility("theme");
             }
 
-            if (props.settingText !== "" || props.levelText !== "" || props.themeText !== "") {
+            if (props.settingText !== "" && props.levelText !== "" && props.themeText !== "") {
                 let target = document.getElementById("campaignText")
                 target.innerHTML = ""
             }
