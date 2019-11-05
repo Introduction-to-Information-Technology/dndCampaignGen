@@ -53,7 +53,7 @@ function Home(props) {
     function check() {
         if (props.settingText !== "" && props.levelText !== "" && props.themeText !== "") {
             let targetz = document.getElementById("campaignText")
-            targetz.innerHTML = ""
+            targetz.innerHTML = "You're good to generate a campaign :)"
         }
     }
 
