@@ -56,18 +56,27 @@ function Home(props) {
             if (e.target.className == "settings dropdown-item") {
                 props.changeSettingInput(e.target.textContent);
                 props.changeDropdownVisibility("setting");
+                if (props.settingText !== "" && props.levelText !== "" && props.themeText !== "") {
+                    let targetz = document.getElementById("campaignText")
+                    targetz.innerHTML = ""
+                }
             } else if (e.target.className == "levels dropdown-item") {
                 props.changeLevelInput(e.target.textContent);
                 props.changeDropdownVisibility("level");
+                if (props.settingText !== "" && props.levelText !== "" && props.themeText !== "") {
+                    let targetz = document.getElementById("campaignText")
+                    targetz.innerHTML = ""
+                }
             } else if (e.target.className == "theme dropdown-item") {
                 props.changeThemeInput(e.target.textContent);
                 props.changeDropdownVisibility("theme");
+                if (props.settingText !== "" && props.levelText !== "" && props.themeText !== "") {
+                    let targetz = document.getElementById("campaignText")
+                    targetz.innerHTML = ""
+                }
             }
 
-            if (props.settingText !== "" && props.levelText !== "" && props.themeText !== "") {
-                let targetz = document.getElementById("campaignText")
-                targetz.innerHTML = ""
-            }
+          
        
       
     }
