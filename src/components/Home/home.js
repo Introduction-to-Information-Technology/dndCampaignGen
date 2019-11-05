@@ -54,6 +54,9 @@ function Home(props) {
         if (props.settingText !== "" && props.levelText !== "" && props.themeText !== "") {
             let targetz = document.getElementById("campaignText")
             targetz.innerHTML = "You're good to generate a campaign :)"
+
+            var targetp =  document.getElementById("campaignHeader")
+            targetp.innerHTML = ""
         }
     }
 
