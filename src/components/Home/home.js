@@ -65,7 +65,7 @@ function Home(props) {
             }
 
             if (props.settingText !== "" || props.levelText !== "" || props.themeText !== "") {
-                var target = document.getElementById("campaignText")
+                let target = document.getElementById("campaignText")
                 target.innerHTML = ""
             }
        
