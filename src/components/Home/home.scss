@@ -135,8 +135,9 @@ pre {
 
  .os-scrollbar-handle {
     background: #ecd19a !important;
+    transition: box-shadow 0.3s !important;
  }
 
  .os-scrollbar-handle:hover {
-   opacity: 0.7 !important;
+   box-shadow: 0 0 15px #99774c, 0px -5px 20px #a17e51, 0 5px 20px #96744a !important;
  }
