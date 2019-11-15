@@ -1,6 +1,6 @@
-# React, Express, Node, MongoDB Flashcard App hosted by Azure
+# React, Express, Node, Redux App
 
-A simple SPA with flashcard CRUD submission for study.
+A simple SPA with campaign generation and random monsters from dnd5eapi.co
 
 ## Getting Started
 
@@ -9,8 +9,3 @@ A simple SPA with flashcard CRUD submission for study.
 3. Enter 'npm run build' to create a build from ./src/ files and bundle into ./dist/.
 4. Enter 'npm run start' to serve the build from ./dist/.
 5. Both dev and production environments accessible from localhost;
-6. Enter 'npm run lint' to see all your coding style errors.
-7. Enter 'npm run lintF' to auto fix some of your coding style errors.
-
-NoSQL Database is CosmoDB by Microsoft Azure using MongoDB API.
-
